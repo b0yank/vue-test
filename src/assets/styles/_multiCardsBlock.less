@@ -1,0 +1,17 @@
+@cardWidth: 320px;
+
+.poke-cards {
+    display: grid;
+    grid-template-columns: repeat(3, @cardWidth);
+    column-gap: 20px;
+    row-gap: 30px;
+    justify-content: center;
+
+    .poke-card-container {
+        width: @cardWidth;
+        padding: 30px 60px;
+        border-radius: 15px;
+        background-color: aliceblue;
+        box-sizing: border-box;
+    }
+}
